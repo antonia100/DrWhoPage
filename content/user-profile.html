@@ -1,0 +1,136 @@
+<head>
+</head>
+
+<body>
+
+<div id='sign-wrapper'>
+
+<div class="block" id='form-block'>
+
+		<div id='h1' class="block-top">
+			<h1>User Name</h1>
+		</div>
+
+		<div id='userPosts' class="block-top">
+			<button type='submit'>Posts</button> 
+		</div>
+
+		<div id='form-div'>
+			<form id='login-form' method="POST">
+
+				<div class='form-item'>
+					Email: <input type="text" name="userEmailChange"> 
+				</div>
+
+				<div class='form-item'>
+					Current Password: <input type="password" name="userPassword"> 
+				</div>
+
+				<div class='form-item'>
+					New Password: <input type="password" name="userPasswordChange"> 
+				</div>
+
+				<div class='form-item'>
+					Repeat New Password: <input type="password" name="userPasswordRepeatChange"> 
+				</div>
+
+				<div class='form-item'>
+					<button type='submit'>Apply Changes</button> 
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+<div class='block' id='tardis-image'>
+	<img src="images/tardis.png">
+</div>
+
+</div>
+</body>
+
+<style type="text/css">
+
+	.block{
+		display: inline-block;
+	}
+
+	#sign-wrapper{
+		width: 91%;
+		height: 100%;
+		background-color: white;
+		opacity: 0.8;
+		margin: auto;
+	}
+
+	#h1{
+		width: 200px;
+		height: 50px;
+		padding-top: 5px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	#user-posts{
+		width: 200px;
+		height: 50px;
+		padding-top: 5px;
+		margin-bottom: 15px;
+	}
+
+	.block-top {
+		display: inline-block;
+	}
+
+	form {
+		font-family: "Arial Black", Gadget, sans-serif;
+		padding-left: 18px;
+		margin-top: 10px;
+	}
+
+	.form-item {
+		width: 200px;
+		height: 50px;
+	}
+
+	input {
+		width: 300px;
+		height: 30px;
+	}
+
+	#form-block {
+		margin: 25px;
+		padding-left: 20px;
+	}
+
+	#tardis-image {
+		float: right;
+		margin: 10px;
+		width: 400px;
+	}
+
+	img {
+		width: 300px;
+	}
+
+
+	button {
+	height: 50px;
+	width: 100px;
+	margin: 5px;
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	text-shadow:0px 1px 0px #283966;
+	font-size: 15px;
+	}
+
+</style>

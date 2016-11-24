@@ -1,0 +1,53 @@
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style-index.css">
+	<script   src="https://code.jquery.com/jquery-3.1.1.js"   
+	integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+	<title>Doctor Who Fandom</title>
+
+</head>
+<body>
+
+<div id='header-wrapper'>
+	<div id='header'>
+		<a href="index-loggedin.html">
+			<img src="images/logo.jpg">
+		</a>
+
+		<button id='logoutBtn' class='header-item'>Log out</button>
+		<button id='profileBtn' class='header-item'>Profile</button>
+		<button id='newPostBtn' class='header-item'>New Post</button>
+
+	</div>
+</div>
+
+<div id='main'>
+	
+	<div id='content'>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+   document.getElementById("profileBtn").onclick = function () {
+    document.getElementById("content").innerHTML = '<object type="text/html" data="user-profile.html" style="width:100%; height:700px"></object>';;
+	}
+
+	document.getElementById("newPostBtn").onclick = function () {
+    document.getElementById("content").innerHTML = '<object type="text/html" data="new-post.html" style="width:100%; height:700px"></object>';;
+	}
+
+
+</script>
+
+
+</script>
+
+
+</body>
+</html>

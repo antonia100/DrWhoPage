@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engine": "4.2.6",
+  "script": {
+  	"start": "index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencie": {
+  	"formidable": "1.0.17",
+  	"http": "0.0.0",
+  	"mongodb": "2.2.11",
+  	"url": "0.10.3"
+  }
+} 
